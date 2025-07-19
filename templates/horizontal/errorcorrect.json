@@ -1,0 +1,38 @@
+{
+  "NPSH_125": {
+    "sp_correction": -0.01,
+    "dp_correction": -0.05,
+    "flowscale": 1.25,
+    "flowdamp": 0.0
+  },
+  "NPSH_100": {
+    "sp_correction": 10.05,
+    "dp_correction": -0.05,
+    "flowscale": 1.24,
+    "flowdamp": 1000.0
+  },
+  "NPSH_80": {
+    "sp_correction": -0.05,
+    "dp_correction": -0.05,
+    "flowscale": 1.25,
+    "flowdamp": 0.0
+  },
+  "NPSH_65": {
+    "sp_correction": -0.0,
+    "dp_correction": -0.06,
+    "flowscale": 1.25,
+    "flowdamp": 0.0
+  },
+  "NPSH_50": {
+    "sp_correction": -0.05,
+    "dp_correction": -0.05,
+    "flowscale": 1.25,
+    "flowdamp": 0.0
+  },
+  "NPSH_25": {
+    "sp_correction": -0.05,
+    "dp_correction": -0.05,
+    "flowscale": 1.25,
+    "flowdamp": 0.0
+  }
+}
