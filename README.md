@@ -5,3 +5,5 @@ Web Data Acquisition System Server
 ## python testapi.py
 
 ## This starts the API server.
+
+This is the server that manages all the data processing, data capture from hardware and storage.
