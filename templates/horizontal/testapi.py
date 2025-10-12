@@ -28,9 +28,10 @@ logger.addHandler(logHandler)
 configFilePath = Path(cwd) / "config.json"
 errorcorrectParametersFilePath = Path(cwd) / "errorcorrect.json"
 
-service = TestService(configFilePath=configFilePath,
-                     errorcorrectParameterFilePath=errorcorrectParametersFilePath,
-                     simulationMode=True)
+service = TestService(  basepath=Path(cwd),
+                        configFilePath=configFilePath,
+                        errorcorrectParameterFilePath=errorcorrectParametersFilePath,
+                        simulationMode=True)
 
 configModel = service.GetTestConfig()
 recordsdbfilename = configModel.machine.machineref+"_"+configModel.machine.testreference+".records.db"

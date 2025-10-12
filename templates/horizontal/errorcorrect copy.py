@@ -43,9 +43,6 @@ class ErrorCorrector(ErrorCorrectorBase):
         self.ecparameters = parameters
         self.__SetInternalsFromErrorCorrectParameters()
 
-    def CheckErrorCorrectModule(self):
-        return "OK"
-
     def __SetInternalsFromErrorCorrectParameters(self):
         pass
 

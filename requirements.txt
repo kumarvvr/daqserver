@@ -48,3 +48,4 @@ urllib3==2.5.0
 uvicorn==0.34.2
 watchfiles==1.1.0
 websockets==15.0.1
+UeiDaq @ file:///D:/Projects/webdaq/daqserver/pyenv/UeiDaq-5.2.0-cp312-abi3-win_amd64.whl

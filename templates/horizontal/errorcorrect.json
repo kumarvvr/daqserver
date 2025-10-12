@@ -1,4 +1,5 @@
 {
+  "flow": 25.5,
   "NPSH_125": {
     "sp_correction": -0.01,
     "dp_correction": -0.05,
@@ -6,7 +7,7 @@
     "flowdamp": 0.0
   },
   "NPSH_100": {
-    "sp_correction": 10.05,
+    "sp_correction": 25,
     "dp_correction": -0.05,
     "flowscale": 1.24,
     "flowdamp": 1000.0
